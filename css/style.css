@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
 header{
   background-color: rgba(49,97,224,255);
   height: 60px;
@@ -182,6 +186,10 @@ align-items: flex-start;
 .container .colonne ul li{
   list-style-type: none;
   padding-bottom: 10px;
+}
+
+.grigio{
+  background-color: #f6f6f6;
 }
 
 footer .container #colonna h3, ul li:first-child{
