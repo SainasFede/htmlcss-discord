@@ -1,0 +1,183 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  background-color: rgba(49,97,224,255);
+  height: 60px;
+  justify-content: center;
+  justify-content: space-between;
+
+  /*altezza da togliere*/
+}
+.jumbotron{
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  display: flex;
+  height: 600px;
+  color: white;
+  font-size: 25px;
+}
+
+.jumbotron .content .Bottoni a{
+  padding: 10px;
+}
+
+.menu{
+  margin: 0 auto;
+  height: 50px;
+  /*altezza da togliere*/
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  max-width: 70%;
+  
+}
+
+.content{
+  /*altezza da togliere*/
+  text-align: center;
+  max-width: 50%;
+  flex-direction: column;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.content h1, p{
+  padding-bottom: 20px;
+}
+
+.intro{
+  /*altezza da togliere*/
+  display: flex;
+  justify-content: space-between;
+}
+
+.intro ul{
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+}
+
+.intro ul li{
+  float: left;
+  padding: 10px;
+}
+
+.intro ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+.bottone-bianco{
+  background-color: white;
+  border-radius: 5px;
+  padding: 3px;
+  color: #23272a;
+}
+
+a{
+  text-decoration: none;
+}
+
+#bianco{
+  background-color: white;
+  color: #23272a;
+  border-radius: 10px 10px;
+  padding: 7px;
+}
+
+#nero{
+  background-color:#23272a;
+  color:white;
+  border-radius: 10px 10px;
+  padding: 7px;
+}
+
+.container{
+  background-color: lightgray;
+  border: 1px solid black;
+}
+
+.riquadro{
+  display: flex;
+  margin: 0 auto;
+  /*altezza da togliere*/
+  margin-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+  max-width: 50%;
+
+}
+
+.mini-riquadro{
+  max-width: 1180px;
+  margin: 0 auto;
+  background-color: lightgreen;
+  /*altezza da togliere*/
+  height: 200px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.testo{
+  /*altezza da togliere*/
+  background-color: orange;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+
+
+.quadro4{
+  background-color: brown;
+}
+
+footer{
+  background-color: black;
+  height: 800px;
+}
+
+.liste{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  background-color: lightsalmon;
+  height: 400px;
+  /*altezza da togliere*/
+  margin: 0 auto;
+  border-bottom: 5px solid yellow;
+}
+
+.piede{
+  display: flex;
+  justify-content: space-between;
+  max-width: 1180px;
+  height: 80px;
+  /*altezza da togliere*/
+  background-color: black;
+  border: 2px solid white;
+  margin: 0 auto;
+  color: white;
+}
+
+.colonne-liste{
+  width: 180px;
+  height: 200px;
+  /*altezza da togliere*/
+  background-color: greenyellow;
+  margin: 20px 20px;
+
+}
+
+
+
+
