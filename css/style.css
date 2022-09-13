@@ -48,7 +48,7 @@ header{
   justify-content: center;
 }
 
-.content h1, p{
+.content h1, p, h2{
   padding-bottom: 20px;
 }
 
@@ -103,18 +103,25 @@ a{
 
 .container{
   background-color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
   border: 1px solid black;
+}
+
+.immagine{
+  padding-right: 40px;
 }
 
 .riquadro{
   display: flex;
-  margin: 0 auto;
+  margin: 20px 20px;
   /*altezza da togliere*/
-  margin-bottom: 10px;
   justify-content: space-between;
   align-items: center;
   justify-content: center;
-  max-width: 50%;
+  max-width: 60%;
 
 }
 
