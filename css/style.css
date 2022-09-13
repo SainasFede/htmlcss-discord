@@ -157,7 +157,8 @@ a{
 
 
 footer{
-  background-color: black;
+  background-color:#23272a;
+  color: white;
 }
 
 footer .container{
@@ -174,16 +175,16 @@ align-items: flex-start;
 
 .container .colonne{
   width: calc(100 / 6);
-  background-color: lightcoral;
-}
-
-.container .colonne ul{
-  padding-bottom: 15px;
+  padding-top: 20px;
 }
 
 .container .colonne ul li{
   list-style-type: none;
-  color: white;
+  padding-bottom: 10px;
+}
+
+footer .container #colonna h4, ul li:first-child{
+  color:#7289da;
 }
 
 .piede{
